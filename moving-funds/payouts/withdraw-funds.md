@@ -405,7 +405,7 @@ const bodyJSON = {
       // ...recipient, sender, and the other withdrawal fields...
       instructingInstitution: {
         legalName: "Intermediate Institution Ltd",
-        website: "https://www.example.com/about",
+        website: "example.com",
         businessNumber: "A39477669937",
         address: {
           street: "203 Business Street",

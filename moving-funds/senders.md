@@ -289,7 +289,7 @@ const bodyJSON = {
   variables: {
     input: {
       companyName: "Acme Pte Ltd",
-      website: "https://www.acme.com/about",
+      website: "acme.com",
       businessNumber: "12345678912",
       email: "acme@example.com",
       mobile: "+61 4123456789",
@@ -344,7 +344,7 @@ mutation($input: SenderInput!) {
 {
   "input": {
     "companyName": "Acme Pte Ltd", 
-    "website": "https://www.acme.com/about",
+    "website": "acme.com",
     "businessNumber": "12345678912", 
     "email": "acme@example.com", 
     "mobile": "+61 4123456789", 

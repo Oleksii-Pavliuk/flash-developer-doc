@@ -39,7 +39,7 @@ const bodyJSON = {
   variables: {
     input: {
       legalName: "Intermediate Institution Ltd",
-      website: "https://www.example.com/about",
+      website: "example.com",
       businessNumber: "A39477669937",
       address: {
         postcode: "2000",
@@ -83,7 +83,7 @@ mutation($input: InstitutionInput!) {
 ```javascript
  "input": {
     "legalName": "Intermediate Institution Ltd",
-    "website": "https://www.example.com/about",
+    "website": "example.com",
     "businessNumber": "A39477669937",
     "address": {
       "postcode": "2000",
