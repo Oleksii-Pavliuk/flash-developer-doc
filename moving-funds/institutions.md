@@ -55,7 +55,7 @@ mutation ($input: InstitutionInput!) {
   createInstitution(input: $input) {
     success code message    
     institution {     
-      id website
+      id
     }  
   }
 }`,
@@ -72,7 +72,6 @@ mutation($input: InstitutionInput!) {
     message
     institution {
       id
-      website
     }
   }
 }

@@ -315,7 +315,7 @@ mutation ($input: SenderInput!) {
   createSender(input: $input) {
     success code message 
     sender { 
-      id nickName website
+      id nickName
     }  
   }
 }`,
@@ -331,7 +331,6 @@ mutation($input: SenderInput!) {
     sender {
       id 
       nickName
-      website
       # there are many other properties
     }
   }
